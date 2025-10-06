@@ -4,7 +4,8 @@ Donner l'affichage exact du programme suivant :
 int a = 5;
 if (a > 3) {
     printf("OK\\n");
-}```
+}
+```
 
 ## Exercice 2 — if/else
 Donner l'affichage exact du programme suivant :
