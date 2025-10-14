@@ -3,7 +3,7 @@ Donner l'affichage exact du programme suivant :
 ```c
 int a = 5;
 if (a > 3) {
-    printf("OK\\n");
+    printf("OK\n");
 }
 ```
 
@@ -12,9 +12,9 @@ Donner l'affichage exact du programme suivant :
 ```c
 int x = 10;
 if (x < 0) {
-    printf("negatif\\n");
+    printf("negatif\n");
 } else {
-    printf("non-negatif\\n");
+    printf("non-negatif\n");
 }
 ```
 
@@ -23,11 +23,11 @@ Donner l'affichage exact du programme suivant :
 ```c
 int n = 7;
 if (n == 0) {
-    printf("zero\\n");
+    printf("zero\n");
 } else if (n % 2 == 0) {
-    printf("pair\\n");
+    printf("pair\n");
 } else {
-    printf("impair\\n");
+    printf("impair\n");
 }
 ```
 
@@ -36,13 +36,13 @@ Donner l'affichage exact du programme suivant :
 ```c
 int t = 12;
 if (t > 20) {
-    printf("chaud\\n");
+    printf("chaud\n");
 } else if (t > 10) {
-    printf("doux\\n");
+    printf("doux\n");
 } else if (t > 0) {
-    printf("frais\\n");
+    printf("frais\n");
 } else {
-    printf("froid\\n");
+    printf("froid\n");
 }
 ```
 
@@ -52,10 +52,10 @@ Donner l'affichage exact du programme suivant :
 ```c
 int a = 4;
 if (a >= 0) {
-    printf("non-negatif\\n");
+    printf("non-negatif\n");
 }
 if (a % 2 == 0) {
-    printf("pair\\n");
+    printf("pair\n");
 }
 ```
 
@@ -64,9 +64,9 @@ Donner l'affichage exact du programme suivant :
 ```c
 int v = 3;
 if (v > 0) {
-    printf("positif\\n");
+    printf("positif\n");
 } else if (v % 3 == 0) {
-    printf("multiple de 3\\n");
+    printf("multiple de 3\n");
 }
 ```
 
@@ -75,10 +75,10 @@ Donner l'affichage exact du programme suivant :
 ```c
 int v = 9;
 if (v > 0) {
-    printf("positif\\n");
+    printf("positif\n");
 }
 if (v % 3 == 0) {
-    printf("multiple de 3\\n");
+    printf("multiple de 3\n");
 }
 ```
 
@@ -87,11 +87,11 @@ Donner l'affichage exact du programme suivant :
 ```c
 int y = 100;
 if (y > 100) {
-    printf("strictement plus grand\\n");
+    printf("strictement plus grand\n");
 } else if (y == 100) {
-    printf("egal\\n");
+    printf("egal\n");
 } else {
-    printf("strictement plus petit\\n");
+    printf("strictement plus petit\n");
 }
 ```
 
@@ -100,9 +100,9 @@ Donner l'affichage exact du programme suivant :
 ```c
 int k = 8;
 if (k >= 0) {
-    printf("A\\n");
+    printf("A\n");
 } else if (k >= 5) {
-    printf("B\\n");
+    printf("B\n");
 }
 ```
 
@@ -112,9 +112,9 @@ Donner l'affichage exact du programme suivant :
 int a = 2;
 int b = 5;
 if (a < b) {
-    printf("a<b\\n");
+    printf("a<b\n");
     if (b - a == 3) {
-        printf("ecart=3\\n");
+        printf("ecart=3\n");
     }
 }
 ```
@@ -125,11 +125,11 @@ Donner l'affichage exact du programme suivant :
 ```c
 int m = 15;
 if (m % 2 == 0 && m > 10) {
-    printf("A\\n");
+    printf("A\n");
 } else if (m % 5 == 0 || m == 7) {
-    printf("B\\n");
+    printf("B\n");
 } else {
-    printf("C\\n");
+    printf("C\n");
 }
 ```
 
@@ -138,10 +138,10 @@ Donner l'affichage exact du programme suivant :
 ```c
 int z = 0;
 if (z == 0) {
-    printf("zero\\n");
+    printf("zero\n");
 }
 if (z <= 0) {
-    printf("negatif ou zero\\n");
+    printf("negatif ou zero\n");
 }
 ```
 
@@ -150,13 +150,13 @@ Donner l'affichage exact du programme suivant :
 ```c
 int note = 14;
 if (note >= 16) {
-    printf("TB\\n");
+    printf("TB\n");
 } else if (note >= 14) {
-    printf("B\\n");
+    printf("B\n");
 } else if (note >= 12) {
-    printf("AB\\n");
+    printf("AB\n");
 } else {
-    printf("Passable\\n");
+    printf("Passable\n");
 }
 ```
 
@@ -165,11 +165,11 @@ Donner l'affichage exact du programme suivant :
 ```c
 int p = 6;
 if (p > 2) {
-    printf("X\\n");
+    printf("X\n");
 } else if (p > 4) {
-    printf("Y\\n");
+    printf("Y\n");
 } else {
-    printf("Z\\n");
+    printf("Z\n");
 }
 ```
 
@@ -178,11 +178,11 @@ Donner l'affichage exact du programme suivant :
 ```c
 int q = -3;
 if (q >= 0) {
-    printf("start\\n");
-    printf("q>=0\\n");
+    printf("start\n");
+    printf("q>=0\n");
 } else {
-    printf("start\\n");
-    printf("q<0\\n");
+    printf("start\n");
+    printf("q<0\n");
 }
 ```
 
